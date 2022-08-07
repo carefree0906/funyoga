@@ -1,0 +1,58 @@
+/*目前的理解是設定完變數 再將通用的class拆出來設定，並帶入變數 */
+/*這bs5好像會講到 目前不熟悉 這樣拆太複雜了 寫一個區塊花太多時間 先用基本scss寫就好*/
+/*font-size*/
+.fs-1 {
+    font-size: $fs-1; //設計稿沒有8px計算用
+}
+.fs-1-5 {
+    font-size: $fs-1-5; //12px
+}
+.fs-2-25 {
+    font-size: $fs-2-25; //18px
+}
+.fs-2-5 {
+    font-size: $fs-2-5; //20px h2副標
+}
+.fs-3 {
+    font-size: $fs-3; //24px itemtitle 
+}
+.fs-4 {
+    font-size: $fs-4; //32px h2 
+}
+.fs-6 {
+    font-size: $fs-6; //48px 大標
+}
+
+/*color*/
+.primary{
+    color: $primary; //藍綠
+}
+.secondary {
+    color: $secondary; //粉
+}
+.secondary-light{
+    color: $secondary-light; //淺黃
+}
+.third{
+    color: $third; //黃
+}
+.white{
+    color: $white;
+}
+.gray-100{
+    color: $gray-100; //陰影
+}
+.gray-200{
+    color: $gray-200; //細線
+}
+.gray-300{
+    color: $gray-300; //CARD BG
+}
+.gray-400{
+    color: $gray-400; //小字
+}
+.gray-500{
+    color: $gray-500; //大字
+}
+
+
